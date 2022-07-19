@@ -1,0 +1,220 @@
+/* Cabeçalho - Início */
+
+.header{background-color: black;}
+
+.header .container .menu_sup .logo{max-width: 150px; max-height: 150px; margin-left: 15px; margin-top: 10px;}
+.header .container .menu_sup{justify-content: space-between; display: flex; flex-wrap: wrap;}
+.header .container .menu_sup ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.header .container .menu_sup ul li{list-style: none; padding: 5px; color: white;}
+.header .container .menu_sup ul li a{color: white;}
+.header .container .menu_sup ul li a:hover{color: grey;}
+
+.header .container .menu_sup .menu_cad li{margin-top: 5px;}
+.header .container .menu_sup .menu_cad .bordery{border-left: 1px solid white; border-right: 1px solid white;}
+
+.header .container .paises li a .brazil{border: 1px solid white}
+
+.header .container .borda{border: 2px 1px solid white; max-width: 1000px; max-height: 1px; text-align: center;}
+
+.header .container .menu_principal ul{display: flex; flex-wrap: wrap;}
+.header .container .menu_principal ul li{list-style: none; padding: 5px; color: white;}
+.header .container .menu_principal ul li a{color: white;}
+.header .container .menu_principal ul li a:hover{color: white; background-color: grey;}
+.header .container .menu_principal .navbar{width: 100%; border-top: 1px solid white;}
+
+.header .container .menu_principal .show .a1{background-color: grey;}
+
+.header .container .menu_principal button{background-color: grey; border-color: white; color: black;}
+.header .container .menu_principal button .icone_menu{max-width: 25px; max-height: 25px;}
+
+/* Cabeçalho - Fim */
+
+/* Corpo - Início */
+
+body .main{background-color: gray;}
+
+.main .carousel .container .slides .slide1{max-width: 1240px; max-height: 620px; border: 1px solid black; border-top: 0px;}
+.main .carousel .container .slides .slide2{max-width: 1240px; max-height: 620px; border: 1px solid black; border-top: 0px;}
+
+.main .carousel .container .slides .slide3{max-width: 1240px; max-height: 620px; border: 1px solid black; border-top: 0px;}
+
+.main .carousel .container .slides .carousel1 h2{font-size: xx-large; display: grid;}
+.main .carousel .container .slides .carousel1 p{font-size: 20px; display: grid; background-color: rgba(0,0,0,0.7); margin-left: 0px;}
+.main .carousel .container .slides .carousel1 p{margin-left: 0px;}
+
+.main .container .linha1 .imagemnot{position: relative;}
+.main .container .principal .linha1 .imagemnot .top_left{position: absolute; top: 20px; left: 15px; color: white; background-color: black; padding: 3px; border: solid black 1px;}
+.main .container .linha1 .imagemnot .coringa_img{border: 1px solid black; max-height: 100%; margin-top: 20px; display: grid; max-width: 100%;}
+.main .container .linha1 .texto{margin-top: 20px ; background-color: rgba(0,0,0,0.5); padding-top: 10px; max-width: 100%; max-height: 100%;}
+.main .container .data1{color: white; font-style: italic; font-size: smaller;}
+.main .container h3{color: white; display: grid; font-size: larger;}
+.main .container .linha1 p{color: white; display: grid; font-size: small;}
+.main .container .linha1 a{color: white; display: grid; text-decoration: none; font-size: small;}
+.main .container .linha1 .continuacao_c a:hover{color: black;}
+
+.main .container .artistas{margin-top: 20px; margin-left: 20px;}
+.main .container .artistas .cabecalhoa{width: 100%; background-color: black; border: 2px solid white;}
+.main .container .artistas .cabecalhoa ul li{list-style: none; padding-top: 10px; color: white; text-align: left; font-size: x-large;}
+.main .container .artistas .slide_art{background-color: rgba(0,0,0,0.5); height: 420px; margin-bottom: 10px;}
+.main .container .artistas .slide_art .img{max-width: 180px; max-height: 80px; margin-top: 20px; height: 100%; width:100%; margin-left: 5px;}
+.main .container .artistas .slide_art .txt{color: white; margin-top: 20px; margin-left: 5px;}
+.main .container .artistas .slide_art .txt h4{font-size: larger;}
+.main .container .artistas .slide_art .txt p{font-size: smaller;}
+
+.main .container .noticias .cabecalhon{display: grid; background-color: black;color: white;}
+.main .container .noticias .cabecalhon ul li{display: grid; grid-row: grid; list-style: none; justify-content: space-between;}
+
+.main .container .principal{width: 60%;}
+.main .container .late_p{width: 40%;}
+
+.main .container{display: flex}
+
+.main .container .cabecalhon .menu2{border: solid white 2px;background-color: black; color: white; margin-top: 15px;}
+.main .container .cabecalhon .menu2 h6{padding: 2px;}
+.main .container .cabecalhon .menu2 a{color: white;}
+.main .container .cabecalhon .menu2 a:hover{color: gray; text-decoration: none;}
+
+.main .container .cabecalhon .menu_desc img{max-width: 100%;}
+.main .container .cabecalhon .menu_desc p:not(.data1){color: white; font-size: smaller;}
+
+.main .display_song .row{border: solid white 2px; background-color:white ; width: 93.5%; margin-left: 35px; justify-content: center;}
+.main .display_song h6{color: black; padding-top: 17px;}
+
+.main .display_song .slide .row .album h6{color: black; padding: 0px; font-size: small;}
+.main .display_song .slide .row .album p{color: black; padding: 0px; font-size: smaller;}
+.main .display_song .slide .row{margin: 10px;}
+.main .display_song .slide .carousel-indicators{bottom: -10px;}
+.main .display_song .slide .carousel-indicators li{border: solid black 1px;}
+.main .display_song .slide .carousel-indicators li.active{background-color: black;}
+
+.main .container .principal .labels .row{border: solid white 2px; background-color: black; color: white;}
+.main .container .principal .labels h6{padding-top: 10px;}
+.main .container .principal .labels p{padding-top: 10px;}
+
+.main .video .artistas .cabecalhoa{margin-left: 10px;}
+.main .video .slide .carousel-indicators{bottom: -20px;}
+.main .video .slide .carousel-indicators li{border: solid black 1px;}
+.main .video .slide .carousel-indicators li.active{background-color: black;}
+.main .video #videos{width: 100%; height: 100%; margin-left: 25px; margin-bottom: 10px;}
+
+.main .container .labels .item img{max-width: 100%; height: 125px;}
+
+/* Corpo - Fim */
+
+/* Rodapé - Início */
+
+.footer{background-color: black;}
+.footer .container .row .col-4 ul li{list-style: none; font-size: smaller;}
+.footer .container .row .col-4 ul li a{color: white}
+.footer .container .row .col-4 ul li a:hover{color: gray;}
+.footer .container .row h6{color: white; font-size: larger; padding-top: 10px;}
+.footer .container .row p{color: white; font-size: smaller;}
+
+.balao{margin: 0 auto; background-color: white; font-size: small; line-height: 1.6em; border-radius: 15px; width: auto; height: auto; color: black; padding: 20px; position: relative;}
+.balao:after{content: ""; width: 0; height: 0; position: absolute; border-left: 20px solid transparent; border-right: 20px solid #fff; border-bottom: 20px solid transparent; bottom: -20px; left: 10%;}
+
+.footer .container .row .twitter{color:white; display: flex; justify-content: space-between; margin-top: 20px; margin-left: 25px;}
+
+.footer .container .row .redessociais{color: white; font-size: larger; margin-left: 5px; margin-top: 5px; font-weight: bold;}
+
+.footer .container .row .icons_rs{color: white; font-size: xx-large; padding: 15px;}
+
+.footer .row .col-12{color: white; text-align: center; font-size: small;}
+
+/* Rodapé - Fim */
+
+.owl-prev{
+    left: 0px;
+}
+.owl-next{
+    right: 0px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 0%;
+}
+.owl-prev span, .owl-next span{
+    font-size: 60px;
+    color: #fff;
+    opacity: 0.6;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+    background-color: transparent;
+}
+.owl-dot span{
+    background-color: #fff !important;
+    border: 1px solid #000;
+}
+.owl-dot.active span{
+    background-color: #000 !important;
+    border: 1px solid #000;
+}
+
+@media screen and (max-width:600px){
+
+    /* Cabeçalho */
+    .header .container .menu_sup .paises{display: none;}
+
+    .header .container .menu_principal .search{display: none;}
+
+    /* Corpo */
+
+    .main .container .caroulsel .slides{max-width: 100%; max-height: 100%;}
+    .main .container .slide1{width: 100%; height: 100%;}
+    .main .container .slide2{width: 100%; height: 100%;}
+    .main .container .slide3{width: 100%; height: 100%;}
+    .main .container .slides .carousel1 h2{font-size: medium !important; color: white}
+    .main .container .slides .carousel1 p{display: none !important; text-emphasis: none;} 
+    .main .container ol li{display: none;}
+
+    .main .container .principal{width: 100%;}
+    .main .container .late_p{width: 100%; display: none;}
+
+    .footer{display: none;}
+
+}
+
+@media screen and (min-width:601px) and (max-width:1024px){
+
+    /* Cabeçalho */
+    .header .container .menu_sup .logo{max-width: 200px;}
+
+
+    .header .container .menu_principal .search{display: none;}
+
+    /* Corpo */
+
+    .main .container .caroulsel .slides{max-width: 100%; max-height: 100%;}
+    .main .container .slide1{width: 100%; height: 100%;}
+    .main .container .slide2{width: 100%; height: 100%;}
+    .main .container .slide3{width: 100%; height: 100%;}
+    .main .container .slides .carousel1 h2{font-size: medium !important; color: white}
+    .main .container .slides .carousel1 p{display: none !important; text-emphasis: none;} 
+    .main .container ol li{display: none;}
+
+    .main .container .principal{width: 100%;}
+    .main .container .late_p{width: 100%; display: none;}
+
+}
+
+
+/* Caixas de Notícias da parte de pesquisas */
+
+.box-noticia{margin: 10px 0px; overflow: auto; color: white; font-size: large ; clear: both; background-color: rgba(0,0,0,0.5); width: 100%; padding: 15px;}
+
+.box-noticia img {float: left; margin-right: 15px; width: 350px; max-width: 350px; max-height: 200px; text-decoration: none; border: 1px solid black;}
+
+.box-noticia .titulo {font-size: medium;}
+
+.box-noticia .creditos {color: white; font-size: small; font-style: italic;}
+
+.box-noticia .text{font-size: small;}
+.box-noticia .text a:hover{color: gray;}
+.box-noticia .text a{text-decoration: none; color: white;}
+.box-noticia .text a:hover{color: black;}
+
+
+
+
+
+
